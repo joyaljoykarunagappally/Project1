@@ -1,0 +1,18 @@
+<h1 class="title"> {{title.First}}, {{title.Second}}, {{title.Third}}</h1>
+<h1> Name :  {{data.tech1}}</h1>
+<h1> Designation : {{data.tech2}}</h1>
+<h1> Place :  {{data.tech3}}</h1>
+<div style="background-color: rgb(60, 186, 253);">
+    <input type="text" value={{admin}} >
+<h1> My fav color is {{str}}</h1>
+    <button (click)="functionCall()" >Blue</button>&nbsp;&nbsp;
+    <button (click)="functionCall1()">orange</button>&nbsp;&nbsp;
+    <button (click)="functionCall2()">Violet</button></div>
+<div [style.background-color]="colorFunction()">
+    <h2>count = {{count}}</h2>
+    <h3>COUNT IS AN {{oddeven}}</h3>
+    <button (click)="increment()">increment</button>&nbsp;&nbsp;
+    <button (click)="decrement()">decrement</button><p>
+    <button (click)="reset()">reset</button>
+</div>
+
